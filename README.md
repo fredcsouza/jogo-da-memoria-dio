@@ -7,9 +7,9 @@
  - ``CSS 3``
  - ``Javascript``
 
-## Instalação
-1. Baixe o arquivo no link [jogo da memória](https://github.com/fredcsouza/jogo-da-memoria-dio/archive/refs/heads/master.zip).
-2. Descompacte e execute o arquivo index.html.
+## Utilização
+* Baixe o arquivo no link [jogo da memória](https://github.com/fredcsouza/jogo-da-memoria-dio/archive/refs/heads/master.zip), descompacte e execute o arquivo index.html.
+* Ou acesse o jogo no github pages: [Jogo da memória](https://fredcsouza.github.io/jogo-da-memoria-dio/)
 
 ## Preview
 </br>
