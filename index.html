@@ -6,61 +6,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo da memória</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 
 <body>
-    <div class="memory-game">
-        <div class="card" data-card="css">
+    <div class="wrapper-cards">
+        <div class="card" data-match data-card="css">
             <img src="img/css.png" alt="" class="card-front">
-            <img src="img/logo-dio.jpg" alt="" class="card-back">
+            <img src="img/logo-dio.png" alt="" class="card-back">
         </div>
-        <div class="card" data-card="html">
+        <div class="card" data-match data-card="html">
             <img src="img/html.png" alt="" class="card-front">
-            <img src="img/logo-dio.jpg" alt="" class="card-back">
+            <img src="img/logo-dio.png" alt="" class="card-back">
         </div>
-        <div class="card" data-card="js">
+        <div class="card" data-match data-card="js">
             <img src="img/js.png" alt="" class="card-front">
-            <img src="img/logo-dio.jpg" alt="" class="card-back">
+            <img src="img/logo-dio.png" alt="" class="card-back">
         </div>
-        <div class="card" data-card="node">
+        <div class="card" data-match data-card="node">
             <img src="img/node.png" alt="" class="card-front">
-            <img src="img/logo-dio.jpg" alt="" class="card-back">
+            <img src="img/logo-dio.png" alt="" class="card-back">
         </div>
-        <div class="card" data-card="python">
+        <div class="card" data-match data-card="python">
             <img src="img/python.png" alt="" class="card-front">
-            <img src="img/logo-dio.jpg" alt="" class="card-back">
+            <img src="img/logo-dio.png" alt="" class="card-back">
         </div>
-        <div class="card" data-card="react">
+        <div class="card" data-match data-card="react">
             <img src="img/react.png" alt="" class="card-front">
-            <img src="img/logo-dio.jpg" alt="" class="card-back">
+            <img src="img/logo-dio.png" alt="" class="card-back">
         </div>
-        <div class="card" data-card="css">
+        <div class="card" data-match data-card="css">
             <img src="img/css.png" alt="" class="card-front">
-            <img src="img/logo-dio.jpg" alt="" class="card-back">
+            <img src="img/logo-dio.png" alt="" class="card-back">
         </div>
-        <div class="card" data-card="html">
+        <div class="card" data-match data-card="html">
             <img src="img/html.png" alt="" class="card-front">
-            <img src="img/logo-dio.jpg" alt="" class="card-back">
+            <img src="img/logo-dio.png" alt="" class="card-back">
         </div>
-        <div class="card" data-card="js">
+        <div class="card" data-match data-card="js">
             <img src="img/js.png" alt="" class="card-front">
-            <img src="img/logo-dio.jpg" alt="" class="card-back">
+            <img src="img/logo-dio.png" alt="" class="card-back">
         </div>
-        <div class="card" data-card="node">
+        <div class="card" data-match data-card="node">
             <img src="img/node.png" alt="" class="card-front">
-            <img src="img/logo-dio.jpg" alt="" class="card-back">
+            <img src="img/logo-dio.png" alt="" class="card-back">
         </div>
-        <div class="card" data-card="python">
+        <div class="card" data-match data-card="python">
             <img src="img/python.png" alt="" class="card-front">
-            <img src="img/logo-dio.jpg" alt="" class="card-back">
+            <img src="img/logo-dio.png" alt="" class="card-back">
         </div>
-        <div class="card" data-card="react">
+        <div class="card" data-match data-card="react">
             <img src="img/react.png" alt="" class="card-front">
-            <img src="img/logo-dio.jpg" alt="" class="card-back">
+            <img src="img/logo-dio.png" alt="" class="card-back">
         </div>
-
+    </div>
+    <div class="wrapper-modal">
+        <div class="modal">
+            <h1 class='modal-title'>Score</h1>
+            <hr>
+            <div class="score">
+                <span class='jogadas'>Jogadas: 0</span>
+                <span class='erros'>Erros: 0</span>
+            </div>
+            <button class='btn-reiniciar'>Reiniciar</button>
+        </div>
     </div>
 </body>
 
